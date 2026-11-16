@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form">
+
+    <div class="top-section">
+
+        <div class="left-fields">
+
+            <div class="name">
+                <label for="fullName">Full Name</label><br>
+                <input
+                    id="fullName"
+                    class="input-field"
+                    type="text"
+                    placeholder="What should we call you?"
+                    required
+                    aria-required="true">
+            </div>
+
+            <div class="email">
+                <label for="email">Email</label><br>
+                <input
+                    id="email"
+                    class="input-field"
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                    aria-required="true">
+            </div>
+
+        </div>
+
+        <div class="progress"
+             aria-label="Profile completion percentage">
+            <h2 id="percent">0%</h2>
+        </div>
+
+    </div>
+
+    <div class="password">
+
+        <label for="password">Enter Password</label><br>
+        <input
+            id="password"
+            class="input-field"
+            type="password"
+            required
+            aria-required="true">
+
+        <br>
+
+        <label for="confirmPassword">Confirm Password</label><br>
+        <input
+            id="confirmPassword"
+            class="input-field"
+            type="password"
+            required
+            aria-required="true">
+
+    </div>
+
+    <div class="update">
+        <button
+            class="button"
+            type="button"
+            aria-label="Update Profile">
+            Update Profile
+        </button>
+    </div>
+
+</div>
+</body>
+<script src="script.js"></script>
+</html>
