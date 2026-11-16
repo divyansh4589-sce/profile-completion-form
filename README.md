@@ -4,6 +4,10 @@ A responsive and accessible Profile Completion Form built using HTML, CSS, and J
 
 ## Project URL
 
+https://divyansh4589-sce.github.io/profile-completion-form/
+
+## Repository URL
+
 https://github.com/divyansh4589-sce/profile-completion-form
 
 ## Features
